@@ -1,0 +1,32 @@
+.movie-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+
+  .footer {
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer .nav-link {
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .footer .social-icons .nav-link {
+    margin: 0 10px;
+  }
+  
+  .footer .social-icons .nav-link:hover {
+    opacity: 0.7;
+  }
+  
+  .footer .text-center p {
+    font-size: 0.8rem;
+    color: #888;
+  }
+  

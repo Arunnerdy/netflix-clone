@@ -1,0 +1,99 @@
+/* Navbar.css */
+.navbar {
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Light mode styles */
+  .light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .light-theme .nav-link {
+    color: #000;
+  }
+  
+  .light-theme .dropdown-menu {
+    background-color: #ffffff;
+    color: #000;
+  }
+  
+  .light-theme .dropdown-item:hover {
+    background-color: #e50914;
+    color: #ffffff;
+  }
+  
+  .light-theme .btn-outline-success {
+    border-color: #e50914;
+    color: #e50914;
+  }
+  
+  .light-theme .btn-outline-success:hover {
+    background-color: #e50914;
+    color: #ffffff;
+  }
+  
+  /* Dark mode styles */
+  .dark-theme {
+    background-color: #141414;
+    color: #ffffff;
+  }
+  
+  .dark-theme .nav-link {
+    color: #ffffff;
+  }
+  
+  .dark-theme .dropdown-menu {
+    background-color: #141414;
+  }
+  
+  .dark-theme .dropdown-item:hover {
+    background-color: #e50914;
+    color: #ffffff;
+  }
+  
+  .dark-theme .btn-outline-success {
+    border-color: #e50914;
+    color: #e50914;
+  }
+  
+  .dark-theme .btn-outline-success:hover {
+    background-color: #e50914;
+    color: #ffffff;
+  }
+  
+  /* Theme toggle button */
+  .btn {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+  }
+  
+  .btn:hover {
+    color: #e50914;
+  }
+  
+  .theme-toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .form-control {
+      width: 100%;
+    }
+  }
+
+  .dropdown-dark {
+    background-color: #fff;
+  }
+  
+  .dropdown-dark .dropdown-item {
+    color: #000;
+  }
+  
+  .dropdown-dark .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
+  
