@@ -1,8 +1,9 @@
 # Netflix Clone 
 
+## Project Description
 A responsive Netflix clone built with **React** using locally stored movie data. This project replicates Netflix's core UI/UX with additional features like theme toggling and favorites management.
 
-## Key Features: 
+### Key Features: 
 - **Local Movie Database**  
   - Movie details and posters stored locally (no API needed).  
 - **Advanced Filtering**  
