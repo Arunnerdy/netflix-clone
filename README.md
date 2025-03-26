@@ -104,8 +104,6 @@ src/
 ### Performance
 - Implement cleanup functions in `useEffect`
 - Use conditional rendering to avoid unnecessary DOM elements
-- Memoize expensive calculations when needed
-- Implement lazy loading for route components
 
 ### Styling Approach
 1. **Bootstrap utilities** as primary styling method
