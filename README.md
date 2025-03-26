@@ -81,6 +81,51 @@ src/
 └── main.jsx # Application entry point
 ```
 
+## Coding Standards & Best Practices
+
+### Component Design
+- All components are built as functional components using React hooks
+- Follow the Single Responsibility Principle (one primary function per component)
+- Reuse components like `MovieCard` across different views
+- Use descriptive component names (`MovieDetails`, `GenreMovies`, etc.)
+
+### State Management
+- `useState` for local component state management
+- Context API for global theme management
+- `localStorage` for persisting user favorites
+- Always clean up effects and subscriptions
+
+### Props Handling
+- Validate all props using PropTypes
+- Provide default props for optional values
+- Use consistent prop naming conventions (e.g., always use `show` for show/movie data)
+- Destructure props at the component declaration
+
+### Performance
+- Implement cleanup functions in `useEffect`
+- Use conditional rendering to avoid unnecessary DOM elements
+- Memoize expensive calculations when needed
+- Implement lazy loading for route components
+
+### Styling Approach
+1. **Bootstrap utilities** as primary styling method
+2. **CSS modules** for component-specific styles
+3. **Inline styles** only for dynamic values
+4. **Responsive design** using Bootstrap's grid system
+
+### Error Handling
+- Use optional chaining (`?.`) for safe property access
+- Provide fallback UI for missing data
+- Wrap localStorage operations in try-catch blocks
+- Show user-friendly error messages
+
+### Code Organization
+- Group related files by feature
+- Use PascalCase for component files (e.g., `MovieDetails.jsx`)
+- Use camelCase for helper files and utilities
+- Keep component files under 300 lines of code
+
+
 ## Screenshots
 ### Home Page in Dark Mode
 ![Home Page in Dark Mode](screenshots/darkmode.png)
