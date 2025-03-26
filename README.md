@@ -23,7 +23,7 @@ A responsive Netflix clone built with **React** using locally stored movie data.
 - Ideal for portfolios (demonstrates React skills + UI/UX design).
 
 ### Screenshots
-### Dark Mode
+### Home Page in Dark Mode
 ![Home Page in Dark Mode](screenshots/darkmode.png)
-### Light Mode 
+### Home Page in Light Mode 
 ![Home Page in Light Mode](screenshots/lightmode.png)
