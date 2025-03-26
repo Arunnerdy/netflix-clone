@@ -139,7 +139,7 @@ Provides the Navigation to Home page, Favorites page, Filter by Genre options, S
 ### Home page in Dark mode 
 ![Home Page in Dark Mode](screenshots/darkmode.png)
 ### Scroll buttons
-![Scroll buttons](screenshots/scrollbars.png)
+![Scroll buttons](screenshots/scrollbars.jpg)
 ### Filter Results
 ![Filter Results](screenshots/FilterResult.png)
 ### Search Results
