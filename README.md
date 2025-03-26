@@ -130,6 +130,39 @@ src/
 - Separate concerns through proper folder structure
 - Maintain reasonable file size limits
 - Keep related test files colocated
+
+## Error Handling & Debugging Guide
+
+### 1. Common Error Types
+#### Frontend Issues
+- Blank screens or broken component rendering
+- UI not updating when state changes
+- Navigation errors or incorrect routes
+
+#### Data Problems
+- Favorites list not saving between sessions
+- Missing movie posters or details
+- Theme preferences resetting unexpectedly
+
+### 2. Debugging Tools
+- Chrome/Firefox Developer Tools
+- React Component Inspector
+- Redux/Zustand State Debugger
+- Network Throttling for slow connection testing
+
+### 3. Prevention Strategies
+- Strict prop type validation
+- Comprehensive error boundaries
+- Data sanitization before storage
+- Fallback UI components for loading states
+
+### 4. Debugging Checklist
+- [ ] Check browser console for errors
+- [ ] Verify component props
+- [ ] Test state management flow
+- [ ] Validate localStorage data
+- [ ] Test all user interactions
+
 ## UI/UX Guidelines
 ### Navigation Bar
 Provides the Navigation to Home page, Favorites page, Filter by Genre options, Search movie by name and also toggle between themes.
