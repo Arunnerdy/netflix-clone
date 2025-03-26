@@ -1,20 +1,22 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import MovieCard from './MovieCard';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col,Spinner } from 'react-bootstrap';
 import { predefinedShows } from '../MovieData/shows'; // Import your local shows data
 
 const SearchResults = () => {
   const { query } = useParams(); // Extract search query from the URL
   const [filteredShows, setFilteredShows] = useState([]);
-
+  const [isLoading, setIsLoading] = useState(false);
   // Search shows based on the query
   useEffect(() => {
     if (!query) {
       setFilteredShows([]);
       return;
     }
-
+  
+    setIsLoading(true);
+    
     const searchTerm = query.toLowerCase();
     const results = predefinedShows.filter(show => 
       show.name.toLowerCase().includes(searchTerm) ||
@@ -22,7 +24,17 @@ const SearchResults = () => {
     );
     
     setFilteredShows(results);
+    setIsLoading(false);
   }, [query]);
+
+  if (isLoading) {
+    return (
+      <div className="d-flex justify-content-center align-items-center" style={{ height: '50vh' }}>
+        <Spinner animation="border" variant="danger" />
+        <span className="ms-2">Searching...</span>
+      </div>
+    );
+  }
 
   return (
     <Container className="mt-4">

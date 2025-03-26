@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button,Spinner } from 'react-bootstrap';
 import { AlertCircle, CheckCircle, Star } from 'lucide-react';
 import DialogBox from './DialogBox';
 import { predefinedShows } from '../MovieData/shows'; // Import your local shows data
@@ -10,13 +10,26 @@ const MovieDetails = () => {
   const [show, setShow] = useState(null);
   const [showDialog, setShowDialog] = useState(false);
   const [dialogMessage, setDialogMessage] = useState('');
-
+  const [isLoading, setIsLoading] = useState(false); // Add loading state
+  
   useEffect(() => {
     window.scrollTo(0, 0);
     
-    // Find the show in predefinedShows that matches the movieId
+    // For local data, we don't need loading state unless the dataset is huge
     const foundShow = predefinedShows.find(show => show.id.toString() === MovieId);
-    setShow(foundShow);
+    
+    // Only show loading if we can't find immediately (large dataset scenario)
+    if (!foundShow) {
+      setIsLoading(true);
+      // Simulate searching through large dataset
+      setTimeout(() => {
+        const showAfterSearch = predefinedShows.find(show => show.id.toString() === MovieId);
+        setShow(showAfterSearch || null);
+        setIsLoading(false);
+      }, 0); // Process in next tick
+    } else {
+      setShow(foundShow);
+    }
   }, [MovieId]);
 
   // Add a show to favorites
@@ -41,6 +54,16 @@ const MovieDetails = () => {
     }
   };
 
+  if (isLoading) {
+    return (
+      <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+        <Spinner animation="border" variant="danger" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </Spinner>
+      </div>
+    );
+  }
+
   if (!show) {
     return (
       <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
@@ -59,7 +82,7 @@ const MovieDetails = () => {
         />
       )}
 
-      {/* Hero Banner */}
+      {/* Hero Banner for particular movie */}
       <div
         className="hero-banner"
         style={{

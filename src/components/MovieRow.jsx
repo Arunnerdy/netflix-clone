@@ -7,8 +7,6 @@ import { predefinedShows } from '../MovieData/shows'; // Import your local shows
 
 const MovieRow = ({ title, shows = predefinedShows, genres }) => {
   const rowRef = useRef(null);
-
-  // No need for fetchMovies since we're using local data
   const [displayShows, setDisplayShows] = useState([]);
 
   useEffect(() => {
