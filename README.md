@@ -18,9 +18,23 @@ A responsive Netflix clone built with **React** using locally stored movie data.
 - No external API dependencies.  
 - Custom features beyond the original Netflix UI.  
 - Ideal for portfolios (demonstrates React skills + UI/UX design).
- 
-## Live Demo  
+### Live Demo  
 Project link deployed on the Netlify [Netflix Clone Demo](https://teal-boba-0b87cc.netlify.app/)
+
+## Prerequisites
+
+Before running the project, ensure you have these installed:
+
+| Requirement       | Installation Guide | Verification Command |
+|-------------------|--------------------|----------------------|
+| **Node.js** (v16+) | [Download Node.js](https://nodejs.org/) | `node -v` |
+| **npm** (v8+) or **Yarn** | Comes with Node.js<br>or `npm install -g yarn` | `npm -v` or `yarn -v` |
+| **Git** | [Install Git](https://git-scm.com/) | `git --version` |
+
+### System Requirements
+- **RAM**: Minimum 4GB (8GB recommended)
+- **Disk Space**: 500MB+ free space
+- **OS**: Windows/macOS/Linux (64-bit)
 
 ## **Tools & Technologies Used**
 
