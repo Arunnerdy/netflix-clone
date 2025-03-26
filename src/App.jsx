@@ -16,6 +16,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/netflix-clone" element={<Home />} />
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/genre/:genreId" element={<GenreMovies />} />
         <Route path="/search/:query" element={<SearchResults />} />
