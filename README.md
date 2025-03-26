@@ -48,9 +48,12 @@ Before running the project, ensure you have these installed:
 | **Version Control** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) |
 | **Code Editor**   | ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visual-studio-code&logoColor=white) 
 
-## 🏗️ Code Structure
+## Code Structure
 ```
 src/
+│
+├── api/ 
+│ └── tmdb.js #functions to fetch movies from local storage
 │
 ├── assets/ # Static assets (logos, images)
 ├── components/
@@ -65,7 +68,7 @@ src/
 │ └── SearchResult.jsx # Search results display
 │
 ├── context/ # React context
-│ └── ThemeContext.jxs # Theme management
+│ └── ThemeContext.jsx # Theme management
 │
 ├── data/ # Local database
 │ └── movies.json # Movie dataset
@@ -73,8 +76,9 @@ src/
 ├── pages/ # Route-level components
 │ ├── Favorites.jsx # Favorites page
 │ └── Home.jsx # Main browse page
-|
-└── App.jsx # Root component
+│
+├── App.jsx # Root component
+└── main.jsx # Application entry point
 ```
 
 ## Screenshots
