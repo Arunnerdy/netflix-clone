@@ -49,7 +49,7 @@ Before running the project, ensure you have these installed:
 | **Code Editor**   | ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visual-studio-code&logoColor=white) 
 
 ## 🏗️ Code Structure
-
+```
 src/
 │
 ├── assets/ # Static assets (logos, images)
@@ -75,7 +75,7 @@ src/
 │ └── Home.jsx # Main browse page
 |
 └── App.jsx # Root component
-
+```
 
 ## Screenshots
 ### Home Page in Dark Mode
