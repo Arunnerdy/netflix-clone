@@ -130,7 +130,7 @@ src/
 - Separate concerns through proper folder structure
 - Maintain reasonable file size limits
 - Keep related test files colocated
-## Screenshots
+## UI/UX Guidelines
 ### Home Page in Dark Mode
 ![Home Page in Dark Mode](screenshots/darkmode.png)
 ### Home Page in Light Mode 
