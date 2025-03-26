@@ -5,3 +5,11 @@ A responsive Netflix clone built with React and Movie details and posters are st
 Also it has the feature of toggle between light theme and dark theme. It also have the feature to add your favorite movie in the favorite section.
 
 The live link of the project deployed in the netlify [Netflix Clone Demo](https://teal-boba-0b87cc.netlify.app/)
+
+Tools and Technologies used to built and deploy this project are listed below
+
+-Nodejs
+-React
+-vscode
+-Github
+-Netlify
