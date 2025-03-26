@@ -22,7 +22,7 @@ Project link deployed on the Netlify [Netflix Clone Demo](https://teal-boba-0b87
 - Custom features beyond the original Netflix UI.  
 - Ideal for portfolios (demonstrates React skills + UI/UX design).
 
-### **🛠️ Tools & Technologies Used**
+## **🛠️ Tools & Technologies Used**
 
 | Category          | Technologies |
 |-------------------|-------------|
@@ -33,7 +33,7 @@ Project link deployed on the Netlify [Netflix Clone Demo](https://teal-boba-0b87
 | **Version Control** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) |
 
 
-### Screenshots
+## Screenshots
 ### Home Page in Dark Mode
 ![Home Page in Dark Mode](screenshots/darkmode.png)
 ### Home Page in Light Mode 
