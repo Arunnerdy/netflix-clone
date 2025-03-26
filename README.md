@@ -50,27 +50,31 @@ Before running the project, ensure you have these installed:
 
 ## 🏗️ Code Structure
 
-
 src/
-├── assets/               # Static assets (logos, placeholder images)
-├── components/           # Reusable UI components
-│   ├── MovieCard/        # Individual movie component
-│   ├── Navbar/           # Navigation bar
-│   |
-|   └── ThemeToggle/      # Dark/Light mode switch
-├── constants/            # Application constants
-│   └── themes.js         # Theme configurations
-├── context/              # React context providers
-│   └── ThemeContext.js   # Theme management
-├── data/                 # Local movie database
-│   └── movies.json       # Movie dataset
-├── pages/                # Route-level components
-│   ├── Favorites.jsx     # Favorites page
-│   └── Home.jsx          # Main browse page
-├── styles/               # CSS files
-│   ├── bootstrap/        # Custom Bootstrap overrides
-│   └── App.css           # Global styles
-└── App.jsx               # Root component
+│
+├── assets/ # Static assets (logos, images)
+├── components/
+│ ├── DialogBox.jsx # Modal/popup component
+│ ├── Footer.jsx # Page footer
+│ ├── GenreMovies.jsx # Genre-specific movie listings
+│ ├── HeroBanner.jsx # Main featured content banner
+│ ├── MovieCard.jsx # Individual movie thumbnail
+│ ├── MovieDetails.jsx # Expanded movie information
+│ ├── MovieRow.jsx # Horizontal movie list
+│ ├── NavBar.jsx # Navigation header
+│ └── SearchResult.jsx # Search results display
+│
+├── context/ # React context
+│ └── ThemeContext.jxs # Theme management
+│
+├── data/ # Local database
+│ └── movies.json # Movie dataset
+│
+├── pages/ # Route-level components
+│ ├── Favorites.jsx # Favorites page
+│ └── Home.jsx # Main browse page
+|
+└── App.jsx # Root component
 
 
 ## Screenshots
