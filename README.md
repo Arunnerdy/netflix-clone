@@ -195,8 +195,8 @@ It helps to scroll the Movies cards right and left.
 ### 2. Build Setup
 #### Install dependencies:
 npm install
-#### 3. Create production build
-npm run build
-Find built files in the /dist folder
-#### 4. Hosting Options
+####  Create production build:
+- npm run build
+- Find built files in the /dist folder
+### 3. Hosting Options
 Netlify (Recommended) and drop the dist file manually or upload your project in the Github repository and connect the repository in the netlify
