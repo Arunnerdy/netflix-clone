@@ -71,7 +71,7 @@ src/
 │ └── ThemeContext.jsx # Theme management
 │
 ├── data/ # Local database
-│ └── movies.json # Movie dataset
+│ └── movies.js # Movie dataset
 │
 ├── pages/ # Route-level components
 │ ├── Favorites.jsx # Favorites page
