@@ -107,7 +107,6 @@ src/
 ### Performance
 - Implement proper cleanup in useEffect hooks
 - Use conditional rendering to optimize DOM updates
-- Memoize expensive computations and component trees
 - Implement code splitting for route components
 - Optimize image loading and assets
 
