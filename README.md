@@ -1,15 +1,15 @@
-# Netflix Clone 
+# Netflix Clone 🎬  
 
-## Project Description
-A responsive Netflix clone built with React and Movie details and posters are stored locally. This project replicates the core UI/UX of Netflix with filter the movies based on the genre and search movie by its name.
-Also it has the feature of toggle between light theme and dark theme. It also have the feature to add your favorite movie in the favorite section and also remove
-from your favorite section.
+A responsive Netflix clone built with **React** using locally stored movie data. This project replicates Netflix's core UI/UX with additional features like theme toggling and favorites management.
 
-The live link of the project deployed in the netlify [Netflix Clone Demo](https://teal-boba-0b87cc.netlify.app/)
-
-Tools and Technologies used to built and deploy this project are listed below
- * Nodejs
- * React
- * vscode
- * Github
- * Netlify
+## Key Features ✨  
+- **Local Movie Database**  
+  - Movie details and posters stored locally (no API needed).  
+- **Advanced Filtering**  
+  - Filter movies by **genre** or **search by name**.  
+- **Theme Toggle** 🌓  
+  - Switch between **light** and **dark** mode.  
+- **Favorites System** ❤️  
+  - Add/remove movies from your favorites section.  
+- **Responsive Design** 📱  
+  - Works on all devices (desktop, tablet, mobile).  
