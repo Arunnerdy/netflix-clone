@@ -15,7 +15,7 @@ A responsive Netflix clone built with **React** using locally stored movie data.
   - Works on all devices (desktop, tablet, mobile).
  
 ## Live Demo  
-[Netflix Clone Demo](https://teal-boba-0b87cc.netlify.app/)
+Project link deployed on the Netlify [Netflix Clone Demo](https://teal-boba-0b87cc.netlify.app/)
 
 ### Why This Project?  
 - No external API dependencies.  
