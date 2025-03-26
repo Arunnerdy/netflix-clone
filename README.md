@@ -86,44 +86,51 @@ src/
 ### Component Design
 - All components are built as functional components using React hooks
 - Follow the Single Responsibility Principle (one primary function per component)
-- Reuse components like `MovieCard` across different views
-- Use descriptive component names (`MovieDetails`, `GenreMovies`, etc.)
+- Reuse common components across different views
+- Use descriptive and consistent naming conventions for components
+- Implement container/presentational pattern where appropriate
 
 ### State Management
-- `useState` for local component state management
-- Context API for global theme management
-- `localStorage` for persisting user favorites
-- Always clean up effects and subscriptions
+- Use useState for local component state management
+- Leverage Context API for global theme management
+- Persist user preferences using localStorage
+- Always include cleanup functions for effects and subscriptions
+- Keep business logic separate from UI components
 
 ### Props Handling
 - Validate all props using PropTypes
-- Provide default props for optional values
-- Use consistent prop naming conventions (e.g., always use `show` for show/movie data)
+- Provide sensible default values for optional props
+- Maintain consistent prop naming conventions
 - Destructure props at the component declaration
+- Document expected prop types and shapes
 
 ### Performance
-- Implement cleanup functions in `useEffect`
-- Use conditional rendering to avoid unnecessary DOM elements
+- Implement proper cleanup in useEffect hooks
+- Use conditional rendering to optimize DOM updates
+- Memoize expensive computations and component trees
+- Implement code splitting for route components
+- Optimize image loading and assets
 
 ### Styling Approach
-1. **Bootstrap utilities** as primary styling method
-2. **CSS modules** for component-specific styles
-3. **Inline styles** only for dynamic values
-4. **Responsive design** using Bootstrap's grid system
+- Primary styling through Bootstrap utility classes
+- Component-scoped styles using CSS modules
+- Limited inline styles for dynamic values only
+- Responsive layouts using Bootstrap's grid system
+- Theme-aware styling with CSS variables
 
 ### Error Handling
-- Use optional chaining (`?.`) for safe property access
-- Provide fallback UI for missing data
-- Wrap localStorage operations in try-catch blocks
-- Show user-friendly error messages
+- Use optional chaining for safe property access
+- Implement comprehensive fallback UIs
+- Handle runtime errors gracefully
+- Provide clear user feedback for failures
+- Validate data from external sources
 
 ### Code Organization
-- Group related files by feature
-- Use PascalCase for component files (e.g., `MovieDetails.jsx`)
-- Use camelCase for helper files and utilities
-- Keep component files under 300 lines of code
-
-
+- Group related files by feature/domain
+- Follow consistent file naming conventions
+- Separate concerns through proper folder structure
+- Maintain reasonable file size limits
+- Keep related test files colocated
 ## Screenshots
 ### Home Page in Dark Mode
 ![Home Page in Dark Mode](screenshots/darkmode.png)
