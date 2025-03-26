@@ -184,3 +184,19 @@ It helps to scroll the Movies cards right and left.
 ![Dialog box movie added](screenshots/MovieAdded.png)
 ### Dialog when Movie Removed
 ![Dialog box movie removed](screenshots/MovieRemoved.png)
+
+## Deployment Guide
+
+### 1. Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn package manager
+- Git installed and configured
+- Free account with Netlify
+### 2. Build Setup
+#### Install dependencies:
+npm install
+#### 3. Create production build
+npm run build
+Find built files in the /dist folder
+#### 4. Hosting Options
+Netlify (Recommended) and drop the dist file manually or upload your project in the Github repository and connect the repository in the netlify
