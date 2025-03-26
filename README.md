@@ -12,4 +12,7 @@ A responsive Netflix clone built with **React** using locally stored movie data.
 - **Favorites System**   
   - Add/remove movies from your favorites section.  
 - **Responsive Design**  
-  - Works on all devices (desktop, tablet, mobile).  
+  - Works on all devices (desktop, tablet, mobile).
+ 
+## Live Demo 🌐  
+[Netflix Clone Demo](https://teal-boba-0b87cc.netlify.app/)
