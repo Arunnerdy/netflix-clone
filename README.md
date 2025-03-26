@@ -131,7 +131,22 @@ src/
 - Maintain reasonable file size limits
 - Keep related test files colocated
 ## UI/UX Guidelines
-### Home Page in Dark Mode
-![Home Page in Dark Mode](screenshots/darkmode.png)
-### Home Page in Light Mode 
+### Navigation Bar
+Provides the Navigation to Home page, Favorites page, Filter by Genre options, Search movie by name and also toggle between themes.
+![Navbar components](screenshots/Navbar.png)
+### Home page in light mode 
 ![Home Page in Light Mode](screenshots/lightmode.png)
+### Home page in Dark mode 
+![Home Page in Dark Mode](screenshots/darkmode.png)
+### Scroll buttons
+![Scroll buttons](screenshots/scrollbars.png)
+### Filter Results
+![Filter Results](screenshots/FilterResults.png)
+### Search Results
+![Search Results](screenshots/SearchResults.png)
+### Movie Details Page 
+![Movie Details page](screenshots/Moviedetails.png)
+### Dialog Box when Movie Added
+![Dialog box movie added](screenshots/MovieAdded.png)
+### Dialog when Movie Removed
+![Dialog box movie removed](screenshots/MovieRemoved.png)
