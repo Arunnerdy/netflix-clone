@@ -1,12 +1,25 @@
-# React + Vite
+# Netflix Clone 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Netflix clone built with **React** using locally stored movie data. This project replicates Netflix's core UI/UX with additional features like theme toggling and favorites management.
 
-Currently, two official plugins are available:
+## Key Features: 
+- **Local Movie Database**  
+  - Movie details and posters stored locally (no API needed).  
+- **Advanced Filtering**  
+  - Filter movies by **genre** or **search by name**.  
+- **Theme Toggle**   
+  - Switch between **light** and **dark** mode.  
+- **Favorites System**   
+  - Add/remove movies from your favorites section.  
+- **Responsive Design**  
+  - Works on all devices (desktop, tablet, mobile).
+ 
+## Live Demo  
+[Netflix Clone Demo](https://teal-boba-0b87cc.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Why This Project?  
+- No external API dependencies.  
+- Custom features beyond the original Netflix UI.  
+- Ideal for portfolios (demonstrates React skills + UI/UX design).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Screenshots
