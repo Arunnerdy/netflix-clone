@@ -141,7 +141,7 @@ Provides the Navigation to Home page, Favorites page, Filter by Genre options, S
 ### Scroll buttons
 ![Scroll buttons](screenshots/scrollbars.png)
 ### Filter Results
-![Filter Results](screenshots/FilterResults.png)
+![Filter Results](screenshots/FilterResult.png)
 ### Search Results
 ![Search Results](screenshots/SearchResults.png)
 ### Movie Details Page 
