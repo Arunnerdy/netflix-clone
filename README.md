@@ -7,9 +7,5 @@ Also it has the feature of toggle between light theme and dark theme. It also ha
 The live link of the project deployed in the netlify [Netflix Clone Demo](https://teal-boba-0b87cc.netlify.app/)
 
 Tools and Technologies used to built and deploy this project are listed below
-
--Nodejs
--React
--vscode
--Github
--Netlify
+ * Nodejs
+ * React
