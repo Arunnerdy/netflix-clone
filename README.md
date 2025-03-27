@@ -152,8 +152,6 @@ src/
 ### 2. Debugging Tools
 - Chrome/Firefox Developer Tools
 - React Component Inspector
-- Redux/Zustand State Debugger
-- Network Throttling for slow connection testing
 
 ### 3. Prevention Strategies
 - Strict prop type validation
