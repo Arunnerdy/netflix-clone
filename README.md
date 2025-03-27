@@ -185,6 +185,39 @@ It helps to scroll the Movies cards right and left.
 ### Dialog when Movie Removed
 ![Dialog box movie removed](screenshots/MovieRemoved.png)
 
+## 🧪 Testing Strategy
+
+### **1. Renders Movie Details Correctly**
+This test verifies the rendering behavior of the `MovieDetails` component under different scenarios:
+
+- ✔️ Correctly renders movie details:
+  - Movie name  
+  - Summary  
+  - Genres  
+  - Rating  
+  - Language  
+
+- ✔️ Handles the loading state:
+  - Displays a `Spinner` while loading the movie details  
+
+- ✔️ Handles movie not found case:
+  - Shows a "Show not found" message if the movie ID does not match any predefined movie  
+
+---
+
+### **2. Adds Movie to Favorites Correctly**
+This test verifies the behavior of the "Add to Favorites" functionality:
+
+- ✔️ Adds a movie to local storage as a favorite  
+- ✔️ Displays a success message when the movie is added  
+- ✔️ Handles duplicates:
+  - Shows an error message if the movie is already in the favorites list  
+
+---
+
+### **Testing Tool:**  
+- Performed using **Vitest** for fast and efficient unit testing.  
+
 ## Deployment Guide
 
 ### 1. Prerequisites
