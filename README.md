@@ -7,8 +7,8 @@ A responsive Netflix clone built with **React** using locally stored movie data.
 - **Local Movie Database**  
   - Movie details and posters stored locally (no API needed).  
 - **Advanced Filtering**  
-  - Filter movies by **genre** or **search by name**.
- **Search by its name**   
+  - Filter movies by **genre**.
+- **Search by its name**   
   - Searching movie by its name or keyword. 
 - **Theme Toggle**   
   - Switch between **light** and **dark** mode.  
