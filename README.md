@@ -67,6 +67,9 @@ src/
 │ ├── NavBar.jsx # Navigation header
 │ └── SearchResult.jsx # Search results display
 │
+├── test/ 
+│   ├── SearchResult.test.jsx
+│   └── MovieDetails.test.jsx
 ├── context/ # React context
 │ └── ThemeContext.jsx # Theme management
 │
@@ -92,6 +95,7 @@ src/
 
 ### State Management
 - Use useState for local component state management
+- Use useParam for url fetching
 - Leverage Context API for global theme management
 - Persist user preferences using localStorage
 - Always include cleanup functions for effects and subscriptions
@@ -240,9 +244,9 @@ This test verifies the behavior of the "Add to Favorites" functionality:
 - Free account with Netlify
 ### 2. Build Setup
 #### Install dependencies:
-npm install
+ - npm install
 ####  Create production build:
 - npm run build
 - Find built files in the /dist folder
 ### 3. Hosting Options
-Netlify (Recommended) and drop the dist file manually or upload your project in the Github repository and connect the repository in the netlify
+Netlify (Recommended) and drop the dist file manually or upload your project in the Github repository and connect the repository in the netlify.
