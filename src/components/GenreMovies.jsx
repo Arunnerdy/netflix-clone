@@ -26,7 +26,7 @@ const GenreMovies = () => {
   if (isLoading) {
     return (
       <div className="d-flex justify-content-center align-items-center" style={{ height: '50vh' }}>
-        <Spinner animation="border" variant="danger" />
+        <Spinner animation="border" variant="danger" role="status" aria aria-label='"Loading' />
       </div>
     );
   }

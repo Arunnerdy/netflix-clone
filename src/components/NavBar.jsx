@@ -117,7 +117,8 @@ const Navbar = () => {
               placeholder="Search"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              style={{ backgroundColor: darkMode ? 'lightgray' : 'white', color: darkMode ? 'white' : 'black' }}
+              style={{ backgroundColor: darkMode ? 'lightgray' : 'white', color: darkMode ? 'white' : 'black' }
+            }
             />
             <button
               className={`btn ${darkMode ? 'btn-outline-danger' : 'btn-outline-success'}`}
