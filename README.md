@@ -249,4 +249,4 @@ This test verifies the behavior of the "Add to Favorites" functionality:
 - npm run build
 - Find built files in the /dist folder
 ### 3. Hosting Options
-Netlify (Recommended) and drop the dist file manually or upload your project in the Github repository and connect the repository in the netlify.
+Netlify and drop the dist file manually or upload your project in the Github repository and connect the repository in the netlify.
