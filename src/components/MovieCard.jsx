@@ -1,6 +1,7 @@
 import { Card } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
+import { Star } from 'lucide-react';
 
 const MovieCard = ({ show }) => {
   const navigate = useNavigate();
@@ -48,7 +49,7 @@ const MovieCard = ({ show }) => {
           objectFit: 'cover'
         }}
       />
-    </Card>
+     </Card>
     <div className="mt-2 px-1">
         <h6 className="badge bg-secondary me-2"> {/* Changed to text-body-emphasis */}
           {show.name}

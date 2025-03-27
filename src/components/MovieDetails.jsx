@@ -89,7 +89,7 @@ const MovieDetails = () => {
           backgroundImage: `url(${show.image.original})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          height: '90vh',
+          height: '80vh',
           width: '100%',
           display: 'flex',
           alignItems: 'flex-end',

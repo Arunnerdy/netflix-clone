@@ -6,7 +6,8 @@ export const predefinedShows = [
       summary: "A high school chemistry teacher turns to cooking meth to secure his family's future.",
       image: {
         medium: "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg",
-        original: "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg"
+        original: "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg",
+        banner: "https://th.bing.com/th/id/OIP.dvepNVxL9qPbxYkx9MNt8gHaEK?rs=1&pid=ImgDetMain.jpg"
       },
       rating: { average: 9.5 },
       language: "English",
@@ -19,7 +20,8 @@ export const predefinedShows = [
       summary: "A mockumentary on a group of typical office workers.",
       image: {
         medium: "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
-        original: "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg"
+        original: "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
+        banner:"https://th.bing.com/th/id/OIP.mXvO5QvU4Iw6VT_cW4LDmQHaEK?rs=1&pid=ImgDetMain.jpg"
       },
       rating: { average: 8.9 },
       language: "English",
@@ -33,7 +35,8 @@ export const predefinedShows = [
       summary: "Wildlife documentary series with David Attenborough.",
       image: {
         medium: "https://th.bing.com/th/id/OIP.j63d2QKpS1wILP0L-L-6AAHaLH?rs=1&pid=ImgDetMain.jpg",
-        original: "https://th.bing.com/th/id/OIP.j63d2QKpS1wILP0L-L-6AAHaLH?rs=1&pid=ImgDetMain.jpg"
+        original: "https://th.bing.com/th/id/OIP.j63d2QKpS1wILP0L-L-6AAHaLH?rs=1&pid=ImgDetMain.jpg",
+        banner: "https://th.bing.com/th/id/OIP.doZZSIsMY4R1_iNuIgRBFAHaEK?rs=1&pid=ImgDetMain.jpg"
       },
       rating: { average: 9.5 },
       language: "English",
@@ -47,7 +50,8 @@ export const predefinedShows = [
       summary: "Humans fight giant humanoid creatures called Titans.",
       image: {
         medium: "https://m.media-amazon.com/images/M/MV5BMTY5ODk1NzUyMl5BMl5BanBnXkFtZTgwMjUyNzEyMTE@._V1_.jpg",
-        original: "https://m.media-amazon.com/images/M/MV5BMTY5ODk1NzUyMl5BMl5BanBnXkFtZTgwMjUyNzEyMTE@._V1_.jpg"
+        original: "https://m.media-amazon.com/images/M/MV5BMTY5ODk1NzUyMl5BMl5BanBnXkFtZTgwMjUyNzEyMTE@._V1_.jpg",
+        banner: "https://wallpaperaccess.com/full/36677.jpg"
       },
       rating: { average: 9.0 },
       language: "Japanese",
@@ -60,7 +64,8 @@ export const predefinedShows = [
       summary: "An anthology series exploring techno-paranoia.",
       image: {
         medium: "https://m.media-amazon.com/images/M/MV5BYTM3YWVhMDMtNjczMy00NGEyLWJhZDctYjNhMTRkNDE0ZTI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-        original: "https://m.media-amazon.com/images/M/MV5BYTM3YWVhMDMtNjczMy00NGEyLWJhZDctYjNhMTRkNDE0ZTI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+        original: "https://m.media-amazon.com/images/M/MV5BYTM3YWVhMDMtNjczMy00NGEyLWJhZDctYjNhMTRkNDE0ZTI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        banner: "https://th.bing.com/th/id/OIP.J7kfWMCXB3_qV1p90K1T_wHaEK?rs=1&pid=ImgDetMain.jpg"
       },
       rating: { average: 8.8 },
       language: "English",

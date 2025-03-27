@@ -10,6 +10,10 @@ export const fetchLatestShows = async () => {
   return predefinedShows.slice(5, 25); // Different subset to simulate "new" content
 };
 
+export const getTrendingMovies = async () => {
+  return predefinedShows.slice(0,5);
+}
+
 // Extract genres from predefined shows
 export const fetchGenres = async () => {
   const allGenres = predefinedShows.flatMap(show => show.genres || []);
