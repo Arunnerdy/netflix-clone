@@ -58,7 +58,7 @@ const Favorites = () => {
                     <div className="d-flex justify-content-between align-items-center mt-2">
                       <small className="text-muted">{show.language}</small>
                       <small className="text-warning fw-bold">
-                        ★ {show.rating?.average || 'N/A'}
+                      <Star style={{ fill: 'yellow' }} />  {show.rating?.average || 'N/A'}
                       </small>
                     </div>
                     <Button
