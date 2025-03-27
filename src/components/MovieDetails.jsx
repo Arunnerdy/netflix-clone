@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Container, Row, Col, Button,Spinner } from 'react-bootstrap';
-import { AlertCircle, CheckCircle, Star } from 'lucide-react';
+import { AlertCircle, CheckCircle, Film, Star } from 'lucide-react';
 import DialogBox from './DialogBox';
 import { predefinedShows } from '../MovieData/shows'; // Import your local shows data
 
@@ -96,7 +96,7 @@ const MovieDetails = () => {
           padding: '20px',
           color: '#fff',
         }}
-      >
+       /> 
         <Container>
           <Row>
             <Col>
@@ -107,8 +107,7 @@ const MovieDetails = () => {
             </Col>
           </Row>
         </Container>
-      </div>
-
+      
       {/* Show Details */}
       <Container className="mt-4">
         <Row>
@@ -134,6 +133,16 @@ const MovieDetails = () => {
           </Col>
         </Row>
 
+         {/* Released date */}
+         <Row className="mt-3">
+          <Col>
+            <h2>Released Date</h2>
+            <div className="d-flex align-items-center">
+             <Film className='me-2' />
+              <span>{show.releaseDate || 'N/A'}</span>
+            </div>
+          </Col>
+        </Row>
         {/* Rating */}
         <Row className="mt-3">
           <Col>
@@ -152,7 +161,7 @@ const MovieDetails = () => {
             <p>{show.language}</p>
           </Col>
         </Row>
-      </Container>
+      </Container>   
     </div>
   );
 };

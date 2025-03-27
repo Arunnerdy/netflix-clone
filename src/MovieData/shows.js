@@ -10,7 +10,7 @@ export const predefinedShows = [
       },
       rating: { average: 9.5 },
       language: "English",
-      
+      releaseDate: "2008-01-20",
     },
     {
       id: 2,
@@ -22,7 +22,8 @@ export const predefinedShows = [
         original: "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg"
       },
       rating: { average: 8.9 },
-      
+      language: "English",
+      releaseDate: "2005-03-24",
       
     },
     {
@@ -36,6 +37,7 @@ export const predefinedShows = [
       },
       rating: { average: 9.5 },
       language: "English",
+      releaseDate: "2016-11-06"
       
     },
     {
@@ -49,7 +51,7 @@ export const predefinedShows = [
       },
       rating: { average: 9.0 },
       language: "Japanese",
-      
+      releaseDate: "2013-04-07"
     },
     {
       id: 5,
@@ -62,7 +64,7 @@ export const predefinedShows = [
       },
       rating: { average: 8.8 },
       language: "English",
-      
+      releaseDate: "2011-12-04"
     },
     {
       id: 6,
@@ -75,7 +77,7 @@ export const predefinedShows = [
       },
       rating: { average: 8.9 },
       language: "English",
-      
+      releaseDate: "1994-09-22"
     },
     {
       id: 7,
@@ -87,7 +89,8 @@ export const predefinedShows = [
         original: "https://m.media-amazon.com/images/M/MV5BZDhlMzY0ZGItZTcyNS00ZTAxLWIyMmYtZGQ2ODg5OWZiYmJkXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_.jpg"
       },
       rating: { average: 8.7 },
-      language: "English"
+      language: "English",
+      releaseDate: "2019-11-12"
     },
     {
       id: 8,
@@ -100,7 +103,7 @@ export const predefinedShows = [
       },
       rating: { average: 8.3 },
       language: "Spanish",
-      
+      releaseDate: "2017-05-02"
     },
     {
       id: 9,
@@ -113,6 +116,7 @@ export const predefinedShows = [
       },
       rating: { average: 8.2 },
       language: "English",
+      releaseDate: "2019-12-20"
       
     },
     {
@@ -126,6 +130,7 @@ export const predefinedShows = [
       },
       rating: { average: 9.1 },
       language: "English",
+      releaseDate: "2010-07-25"
       
     },
     {
@@ -139,6 +144,7 @@ export const predefinedShows = [
       },
       rating: { average: 8.6 },
       language: "English",
+      releaseDate: "2020-10-23"
       
     },
     {
@@ -151,7 +157,8 @@ export const predefinedShows = [
         original: "https://th.bing.com/th/id/OIP.rHMhbEUsrsWPBouSBWhkaQHaK-?rs=1&pid=ImgDetMain.jpg"
       },
       rating: { average: 8.8 },
-      language: "German"
+      language: "German",
+      Date: "2017-12-01"
     },
     {
       id: 13,
@@ -163,7 +170,8 @@ export const predefinedShows = [
         original: "https://m.media-amazon.com/images/M/MV5BY2FmZTY5YTktOWRlYy00NmIyLWE0ZmQtZDg2YjlmMzczZDZiXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_.jpg"
       },
       rating: { average: 8.1 },
-      language: "English"
+      language: "English",
+      releaseDate: "2007-09-24"
     },
     {
       id: 14,
@@ -175,7 +183,8 @@ export const predefinedShows = [
         original: "https://th.bing.com/th/id/OIP.NrSw5S27O5GJnIwiw3VvVwHaNK?rs=1&pid=ImgDetMain.jpg"
       },
       rating: { average: 8.7 },
-      language: "English"
+      language: "English",
+      releaseDate: "2021-09-17"
     },
     {
       id: 15,
@@ -187,7 +196,8 @@ export const predefinedShows = [
         original: "https://m.media-amazon.com/images/M/MV5BMTkzNjEzMDEzMF5BMl5BanBnXkFtZTgwMDI0MjE4MjE@._V1_.jpg"
       },
       rating: { average: 8.8 },
-      language: "English"
+      language: "English",
+      releaseDate: "2013-09-12"
     },
     {
       id: 16,
@@ -199,7 +209,8 @@ export const predefinedShows = [
         original: "https://m.media-amazon.com/images/M/MV5BZTEyNjBjYmYtYWYxYi00MmQyLThlYmItY2I4NzM1Mjg1MWYxXkEyXkFqcGdeQXVyMTU3ODI3MTk2._V1_.jpg"
       },
       rating: { average: 8.7 },
-      language: "English"
+      language: "English",
+      releaseDate: "2016-11-04"
     },
     {
       id: 17,
@@ -211,7 +222,8 @@ export const predefinedShows = [
         original: "https://cdn.dribbble.com/users/1195991/screenshots/2951227/attachments/613378/narcosposter.jpg"
       },
       rating: { average: 8.8 },
-      language: "English"
+      language: "English",
+      releaseDate: "2015-08-28"
     },
     {
       id: 18,
@@ -223,7 +235,8 @@ export const predefinedShows = [
         original: "https://m.media-amazon.com/images/M/MV5BOTEyNDJhMDAtY2U5ZS00OTMzLTkwODktMjU3MjFkZWVlMGYyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg"
       },
       rating: { average: 8.7 },
-      language: "English"
+      language: "English",
+      releaseDate: "2019-07-26"
     },
     {
       id: 19,
@@ -235,7 +248,8 @@ export const predefinedShows = [
         original: "https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMjc2YWMzMDEwMTA3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg"
       },
       rating: { average: 8.0 },
-      language: "Korean"
+      language: "Korean",
+      releaseDate: "2021-09-17"
     },
     {
       id: 20,
@@ -247,6 +261,7 @@ export const predefinedShows = [
         original: "https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg"
       },
       rating: { average: 9.2 },
-      language: "English"
+      language: "English",
+      releaseDate: "2011-04-17"
     }
   ];
