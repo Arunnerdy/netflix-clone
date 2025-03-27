@@ -244,8 +244,12 @@ This test verifies the behavior of the "Add to Favorites" functionality:
 - Git installed and configured
 - Free account with Netlify
 ### 2. Build Setup
-#### Install dependencies:
- - npm install
+#### Upload to Github Repository:
+ - git init #initalize the git in your project
+ - git add . #Add all project files to git
+ - git commit -m "Initial Commit" #commit the changes
+ - git remote add origin https://github.com/your-username/repository.git #Add the remote origin
+ - git push -u origin main # push the code to the repository
 ####  Create production build:
 - npm run build
 - Find built files in the /dist folder
