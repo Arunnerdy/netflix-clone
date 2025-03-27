@@ -203,7 +203,7 @@ This test verifies the rendering behavior of the `MovieDetails` component under 
 #### Handles movie not found case:
   - Shows a "Show not found" message if the movie ID does not match any predefined movie  
 
----
+
 
 ### **2. Adds Movie to Favorites Correctly**
 This test verifies the behavior of the "Add to Favorites" functionality:
@@ -213,7 +213,20 @@ This test verifies the behavior of the "Add to Favorites" functionality:
 - Handles duplicates:
   - Shows an error message if the movie is already in the favorites list  
 
----
+### 3. **Rendering Search Results Correctly**
+- **Purpose:** Ensure that the component renders search results based on a valid search query.
+- **Test Steps:**
+   - Provide a valid search query.
+   - Check if the correct search results are displayed.
+   - Verify that the search query is shown in the header.
+- **Expected Outcome:** Correct search results should be rendered.
+
+### 4. **Case Insensitivity**
+- **Purpose:** Ensure that the search functionality works regardless of the query's case.
+- **Test Steps:**
+   - Provide a search query with mixed uppercase and lowercase characters.
+   - Verify that the search still returns correct results.
+- **Expected Outcome:** The search should be case-insensitive and return matching results.
 
 ### **Testing Tool:**  
 - Performed using **Vitest** for fast and efficient unit testing.  
